@@ -644,16 +644,33 @@ a {
     font-weight: 500;
 }
 
+/* Container for multiple project links */
+.project-links {
+    display: flex;
+
+    align-items: center;
+
+    gap: 20px;
+
+    flex-wrap: wrap;
+}
+
 .project-link {
     color: #c4b5fd;
 
     font-weight: 600;
 
     transition: 0.3s;
+
+    display: inline-flex;
+
+    align-items: center;
 }
 
 .project-link:hover {
     color: #67e8f9;
+
+    transform: translateX(2px);
 }
 
 /* ================= EDUCATION ================= */
